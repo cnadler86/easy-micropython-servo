@@ -15,7 +15,7 @@ A MicroPython library for controlling servos using the PWM and Timer modules.
 ### Importing the Library
 
 ```python
-from servo import Servo
+from easy-servo import Servo
 ```
 
 ### Initializing a Servo
