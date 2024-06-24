@@ -48,9 +48,9 @@ class Servo:
             raise ValueError(f"Target angle must be between {self._min_angle} and {self._max_angle}.")
         
         if speed is None:
-            self._servo.duty(self._angle_to_duty(angle))
-            self._target_angle = angle
-            self._current_angle = angle
+            self._servo.duty(self._angle_to_duty(target_angle))
+            self._target_angle = target_angle
+            self._current_angle = target_angle
         else:
             self._step_delay = 1.0 / speed
             self._target_angle = target_angle
