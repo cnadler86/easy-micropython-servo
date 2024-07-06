@@ -114,5 +114,3 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-Speichere diese Datei als `README.md` in deinem Repository. Denke daran, den Platzhalter-Link zur GitHub-URL durch den tatsächlichen Link zu deinem Repository zu ersetzen.
